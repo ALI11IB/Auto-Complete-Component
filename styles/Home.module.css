@@ -1,8 +1,29 @@
-.App {
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-grow: 1;
 }
 
 .container{
@@ -16,19 +37,19 @@
   flex-direction: column;
 }
 
-.auto-complete-text{
-  width: 75%;
-    height: 35px;
-    border: 1px #c4c4c4;
-    border-radius: 5px;
-    font-size: 16px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #c4c4c4;
-    border-image: unset;
-    outline: 1px solid #c4c4c4;
+.autoCompleteText{
+  width: 75% !important;
+    height: 35px!important;
+    border: 1px #c4c4c4!important;
+    border-radius: 5px!important;
+    font-size: 16px!important;
+    border-width: 1px!important;
+    border-style: solid!important;
+    border-color: #c4c4c4!important;
+    border-image: unset!important;
+    outline: 1px solid #c4c4c4!important;
 }
-.auto-complete-text:focus-visible{
+.autoCompleteText:focus-visible{
   width: 75%;
   height: 35px;
    border-radius: 5px;
